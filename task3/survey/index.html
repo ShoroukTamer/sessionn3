@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><a href="mailto:shorouktamer257@gmail.com" target="_blank">Contact us</a><a href="https://www.facebook.com/elite.team.asu" target="_blank"> About us</a></header>
+    <main>
+         <h1 id="title">freeCodeCamp Survey Form</h1>
+         <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+         <div class="container">
+            <form id="Survey-Form">
+               <fieldset>
+                 <label id="name-label">Name</label>
+                        <input type="text" for="name-label" id="Name" placeholder=" Enter your name..." required>   
+                    <label id="Email-label">Email</label>
+                     <input type="email" for="Email-label" placeholder=" Enter your Email..." required>
+                    <label id="Date">Date of birth</label>
+                     <input type="date" for="Date" required>
+                     <label id="Color">Your Fav. Color (optional)</label>
+                     <input type="color" for="color">
+                    <label id="role" name="role">Which option best describes your current role?</label>
+                  <select for="role">
+                     <option value="" aria-invalid="false">(select current role)</option>
+                     <option value="1">Student</option>
+                     <option value="2">Full time job</option>
+                     <option value="3">Full time learner</option>
+                     <option value="4">Prefer not to say</option>
+                     <option value="5">Other</option>
+                  </select>
+               </fieldset>
+             <fieldset>
+                <label class="question">Would you recommend freeCodeCamp to a friend?
+                     <label  name="reff"> <input class="reff" type="radio" for="referral" id="Definitly" name="reff" checked>Definitly</label>
+                    <label  name="reff"> <input class="reff" type="radio" for="referral" id="Maybe" name="reff">Maybe </label>
+                    <label  name="reff"><input class="reff" type="radio" for="referral" id="Not sure" name="reff">Not sure</label>
+                </fieldset>
+                </label> 
+                <fieldset>
+                <label class="question">What would you like to see improved?<span> (Check all that apply)</span><label>
+                <label><input type="checkbox" name="Backend">Back-end Projects</label>
+                <label><input type="checkbox" name="frontend">Front-end Projects</label>
+                <label><input type="checkbox" name="Data Visualization">Data Visualization</label>
+                <label><input type="checkbox" name="Challenges">Challenges</label>
+                <label><input type="checkbox" name="Open Source Community">Open Source Community</label>
+                <label><input type="checkbox" name="Gitter help rooms">Gitter help rooms</label>
+            </fieldset>
+            <label>How was your experience? (out of 5)</label>
+            
+            <label class="rate" name="rate1"> <input class="star" type="radio" for="rate" id="s1" name="rate" >1</label>
+            <label class="rate" name="2"> <input class="star" type="radio" for="rate" id="s2" name="rate" >2</label>
+            <label class="rate" name="3"> <input class="star" type="radio" for="rate" id="s3" name="rate" >3</label>
+            <label class="rate" name="4"> <input class="star" type="radio" for="rate" id="s4" name="rate" >4</label>
+            <label class="rate"  name="5"> <input class="star" type="radio" for="rate" id="s5" name="rate" >5</label>
+          
+            <label> Any comments or suggestions?</label>
+            <textarea  rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+            <input type="submit">
+            </form>
+        </div>
+       
+    </main>
+</body>
+</html>
